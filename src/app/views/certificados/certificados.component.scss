@@ -8,7 +8,7 @@
 .card {
   background-color: #ffffff;
   opacity: 0.5;
-  height: 40vh;
+  min-height: 40vh;
   width: 18vw;
   box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2);
   transition:all 0.3s;
@@ -23,6 +23,7 @@
 
 .card p{
   color: #000000;
+  text-align: justify;
   -webkit-margin-before: 0;
   -webkit-margin-after: 0;
 }
