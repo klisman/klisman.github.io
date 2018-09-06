@@ -3,13 +3,23 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { NavbarComponent } from './views/navbar/navbar.component';
+import { HomeComponent } from './views/home/home.component';
+import { CertificadosComponent } from './views/certificados/certificados.component';
+import { ProjetosComponent } from './views/projetos/projetos.component';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavbarComponent,
+    HomeComponent,
+    CertificadosComponent,
+    ProjetosComponent
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     AppRoutingModule
   ],
   providers: [],
