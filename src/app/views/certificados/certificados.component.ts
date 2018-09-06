@@ -4,7 +4,7 @@ import {fadeInAnimation} from '../../../assets/fade-in-animation';
 @Component({
   selector: 'app-certificados',
   templateUrl: './certificados.component.html',
-  styleUrls: ['./certificados.component.css'],
+  styleUrls: ['./certificados.component.scss'],
   animations: [fadeInAnimation],
   host: { '[@fadeInAnimation]': '' }
 })
