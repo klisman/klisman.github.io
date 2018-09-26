@@ -1,3 +1,8 @@
-<p>
-  Projetos works!
-</p>
+<div class="cards">
+  <div *ngFor="let projeto of projetos" class="card">
+    <img class="card-image" src="{{projeto.imagem}}">
+    <h3>{{projeto.titulo}}</h3>
+    <p>{{projeto.descricao}}</p>
+    <em>{{projeto.instituicao}}</em> <br>
+  </div>
+</div>

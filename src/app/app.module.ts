@@ -8,6 +8,7 @@ import { HomeComponent } from './views/home/home.component';
 import { CertificadosComponent } from './views/certificados/certificados.component';
 import { ProjetosComponent } from './views/projetos/projetos.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import { ContatoComponent } from './views/contato/contato.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
     NavbarComponent,
     HomeComponent,
     CertificadosComponent,
-    ProjetosComponent
+    ProjetosComponent,
+    ContatoComponent
   ],
   imports: [
     BrowserModule,

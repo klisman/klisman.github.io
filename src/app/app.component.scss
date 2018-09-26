@@ -3,7 +3,7 @@
   height: 100%;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 10fr 1fr;
-
+  grid-gap: 15px;
   grid-template-areas: "header" "wrapper" "footer";
 }
 
