@@ -1,0 +1,21 @@
+.contato span {
+  text-align: center;
+}
+
+li {
+  list-style-type: none;
+}
+
+li a{
+  color: #ffffff;
+  text-decoration: none;
+  padding: 20px;
+  font-size: 24px;
+}
+
+li a:hover{
+  color: #d0d0d0;
+  -webkit-transition: color 400ms linear;
+  -ms-transition: color 400ms linear;
+  transition: color 400ms linear;
+}
